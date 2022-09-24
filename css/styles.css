@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+}
+
+main{
+    width: 20rem;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+label span{
+    background-color: hsl(217, 6%, 25%);
+    border-radius: 50%;
+    padding:.5rem .9rem;
+    
+}
+label input{
+    display: none;
+}
+
+input:checked + span {
+    background-color: hsl(216, 12%, 54%); 
+    color: white;
+}
+input:hover + span {
+    background-color: #FC7614; 
+    color: white;
+}
+
+
+
+.card{
+    margin: 0;
+    background-color: hsl(213, 19%, 18%);
+    padding:  1.5rem;
+    border-radius: .8rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    line-height: 1.5;
+}
+.rate-card{
+    display: none;
+}
+.thankyou-card{
+    text-align: center;
+    display: none;
+}
+.thankyou-card-visible{
+    display: flex;
+}
+.star-img{
+    background-color: hsl(217, 6%, 25%);
+    border-radius: 50%;
+    padding: .5rem;
+    width: 1rem;
+}
+.submit-btn{
+    color: white;
+    background-color: #FC7614;
+    padding:.8rem 5.5rem;
+    border: none;
+    border-radius: 3rem;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #FC7614;
+}
+
+.rating-row{
+    display: flex;
+    justify-content: space-between;
+    margin: .5rem 0;
+}
+
+.rating-text{
+    padding: .3rem;
+    margin: .5rem auto;
+    background-color: hsl(217, 6%, 25%);
+    width: 70%;
+    border-radius: 5rem;
+    color: #FC7614;
+}
+.thank-img{
+    width: 70%;
+    margin: auto;
+}
